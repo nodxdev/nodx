@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"text/template"
 )
 
 // nodeAttribute represents an HTML attribute.
@@ -30,7 +29,7 @@ func (na nodeAttribute) Render(w io.Writer) error {
 		return nil
 	}
 
-	_, err := fmt.Fprintf(w, " %s=\"%s\"", na.name, template.HTMLEscapeString(na.value))
+	_, err := fmt.Fprintf(w, " %s=\"%s\"", na.name, escapeHTML(na.value))
 	return err
 }
 
