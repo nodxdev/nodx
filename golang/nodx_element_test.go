@@ -360,4 +360,22 @@ func TestNodeElement(t *testing.T) {
 			t.Errorf("Expected %q, got %q", expected, got)
 		}
 	})
+
+	t.Run("Element with xss injection", func(t *testing.T) {
+		tag := "div"
+		children := []Node{
+			newNodeAttribute("style", `alert("Hello, World!");`),
+			newNodeText("This is a paragraph."),
+		}
+		expected := `<div style="alert(&#34;Hello, World!&#34;);">This is a paragraph.</div>`
+
+		n := newNodeElement(false, tag, children...)
+		got, err := n.RenderString()
+		if err != nil {
+			t.Error(err)
+		}
+		if got != expected {
+			t.Errorf("Expected %q, got %q", expected, got)
+		}
+	})
 }
