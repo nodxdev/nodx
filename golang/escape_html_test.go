@@ -38,4 +38,31 @@ func TestEscapeHTML(t *testing.T) {
 			t.Errorf("Expected %q, got %q", expected, got)
 		}
 	})
+
+	t.Run("Escape with special characters", func(t *testing.T) {
+		input := "test👌áéíóú-&<>'\"-👌test"
+		expected := "test👌áéíóú-&#38;&#60;&#62;&#39;&#34;-👌test"
+		got := escapeHTML(input)
+		if got != expected {
+			t.Errorf("Expected %q, got %q", expected, got)
+		}
+	})
+
+	t.Run("No escape with special characters", func(t *testing.T) {
+		input := "test👌áéíóú"
+		expected := "test👌áéíóú"
+		got := escapeHTML(input)
+		if got != expected {
+			t.Errorf("Expected %q, got %q", expected, got)
+		}
+	})
+
+	t.Run("Single special character", func(t *testing.T) {
+		input := "👌"
+		expected := "👌"
+		got := escapeHTML(input)
+		if got != expected {
+			t.Errorf("Expected %q, got %q", expected, got)
+		}
+	})
 }
