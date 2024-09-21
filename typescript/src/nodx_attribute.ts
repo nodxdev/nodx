@@ -5,8 +5,8 @@ import { escapeHtml } from './escape_html.js'
  * NodeAttribute represents an HTML attribute.
  */
 export class NodeAttribute implements Node {
-  name: string
-  value: string
+  private readonly name: string
+  private readonly value: string
 
   // Constructor to create a new HTML attribute.
   constructor (name: string, value: string) {

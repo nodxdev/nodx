@@ -6,9 +6,9 @@ import { NodeText } from './nodx_text.js'
  * NodeElement represents an HTML element.
  */
 export class NodeElement implements Node {
-  isVoid: boolean
-  name: string
-  children: Node[]
+  private readonly isVoid: boolean
+  private readonly name: string
+  private readonly children: Node[]
 
   // Constructor to create a new HTML element.
   constructor (isVoid: boolean, name: string, ...children: Node[]) {

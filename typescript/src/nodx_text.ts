@@ -7,7 +7,7 @@ import { Node } from './nodx.js'
  * responsibility of the caller to ensure that the text is properly escaped.
  */
 export class NodeText implements Node {
-  text: string
+  private readonly text: string
 
   // Constructor to create a new text node.
   constructor (text: string) {
