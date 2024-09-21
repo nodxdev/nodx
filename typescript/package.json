@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "scripts": {
     "build": "tsc --noEmit && node build.mjs",
     "lint": "tsc --noEmit && ts-standard ./build.mjs ./src/**/*.ts",
