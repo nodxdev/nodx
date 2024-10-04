@@ -1,0 +1,740 @@
+[
+  {
+    "name": "a",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a hyperlink."
+  },
+  {
+    "name": "abbr",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an abbreviation or acronym."
+  },
+  {
+    "name": "address",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines contact information for the author/owner of a document."
+  },
+  {
+    "name": "applet",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an embedded applet (deprecated)."
+  },
+  {
+    "name": "area",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines an area inside an image-map."
+  },
+  {
+    "name": "article",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an article."
+  },
+  {
+    "name": "aside",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines content aside from the page content."
+  },
+  {
+    "name": "audio",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines embedded sound content."
+  },
+  {
+    "name": "b",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines bold text."
+  },
+  {
+    "name": "base",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Specifies the base URL for all relative URLs in a document."
+  },
+  {
+    "name": "basefont",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Specifies a default color, size, and font for all text in a document (deprecated)."
+  },
+  {
+    "name": "bdi",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Isolates a part of text that might be formatted in a different direction from other text."
+  },
+  {
+    "name": "bdo",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Overrides the current text direction."
+  },
+  {
+    "name": "blockquote",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a section that is quoted from another source."
+  },
+  {
+    "name": "body",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines the body of the document."
+  },
+  {
+    "name": "br",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Inserts a single line break."
+  },
+  {
+    "name": "button",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a clickable button."
+  },
+  {
+    "name": "canvas",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Used to draw graphics on the fly via scripting."
+  },
+  {
+    "name": "caption",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a table caption."
+  },
+  {
+    "name": "center",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines centered text (deprecated)."
+  },
+  {
+    "name": "cite",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines the title of a work."
+  },
+  {
+    "name": "code",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a piece of computer code."
+  },
+  {
+    "name": "col",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Specifies column properties for each column within a colgroup element."
+  },
+  {
+    "name": "colgroup",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Specifies a group of one or more columns in a table for formatting."
+  },
+  {
+    "name": "data",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Links the given content with a machine-readable translation."
+  },
+  {
+    "name": "datalist",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Specifies a list of pre-defined options for input controls."
+  },
+  {
+    "name": "dd",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a description/value of a term in a description list."
+  },
+  {
+    "name": "del",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines text that has been deleted from a document."
+  },
+  {
+    "name": "details",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines additional details that the user can view or hide."
+  },
+  {
+    "name": "dfn",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Represents the defining instance of a term."
+  },
+  {
+    "name": "dialog",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a dialog box or window."
+  },
+  {
+    "name": "dir",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a directory list (deprecated)."
+  },
+  {
+    "name": "div",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a section or a division in a document."
+  },
+  {
+    "name": "dl",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a description list."
+  },
+  {
+    "name": "dt",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a term/name in a description list."
+  },
+  {
+    "name": "em",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines emphasized text."
+  },
+  {
+    "name": "embed",
+    "isVoid": true,
+    "isConflictive": true,
+    "description": "Defines a container for an external application or interactive content."
+  },
+  {
+    "name": "fieldset",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Groups related elements in a form."
+  },
+  {
+    "name": "figcaption",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a caption for a figure element."
+  },
+  {
+    "name": "figure",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Specifies self-contained content."
+  },
+  {
+    "name": "font",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines font, color, and size for text (deprecated)."
+  },
+  {
+    "name": "footer",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a footer for a document or section."
+  },
+  {
+    "name": "form",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an HTML form for user input."
+  },
+  {
+    "name": "frame",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a window (a frame) in a frameset (deprecated)."
+  },
+  {
+    "name": "frameset",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a set of frames (deprecated)."
+  },
+  {
+    "name": "h1",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 1."
+  },
+  {
+    "name": "h2",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 2."
+  },
+  {
+    "name": "h3",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 3."
+  },
+  {
+    "name": "h4",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 4."
+  },
+  {
+    "name": "h5",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 5."
+  },
+  {
+    "name": "h6",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines HTML headings level 6."
+  },
+  {
+    "name": "head",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Contains metadata/information for the document."
+  },
+  {
+    "name": "header",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a header for a document or section."
+  },
+  {
+    "name": "hr",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines a thematic change in the content."
+  },
+  {
+    "name": "html",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines the root of an HTML document."
+  },
+  {
+    "name": "i",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a part of text in an alternate voice or mood."
+  },
+  {
+    "name": "iframe",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an inline frame."
+  },
+  {
+    "name": "img",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines an image."
+  },
+  {
+    "name": "input",
+    "isVoid": true,
+    "isConflictive": true,
+    "description": "Defines an input control."
+  },
+  {
+    "name": "ins",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a text that has been inserted into a document."
+  },
+  {
+    "name": "kbd",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines keyboard input."
+  },
+  {
+    "name": "label",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a label for an input element."
+  },
+  {
+    "name": "legend",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a caption for a fieldset element."
+  },
+  {
+    "name": "li",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a list item."
+  },
+  {
+    "name": "link",
+    "isVoid": true,
+    "isConflictive": true,
+    "description": "Defines the relationship between a document and an external resource."
+  },
+  {
+    "name": "main",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Specifies the main content of a document."
+  },
+  {
+    "name": "map",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an image-map."
+  },
+  {
+    "name": "mark",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines marked or highlighted text."
+  },
+  {
+    "name": "meta",
+    "isVoid": true,
+    "isConflictive": true,
+    "description": "Defines metadata about an HTML document."
+  },
+  {
+    "name": "meter",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a scalar measurement within a known range."
+  },
+  {
+    "name": "nav",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines navigation links."
+  },
+  {
+    "name": "noframes",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an alternate content for users that do not support frames (deprecated)."
+  },
+  {
+    "name": "noscript",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an alternate content for users that do not support client-side scripts."
+  },
+  {
+    "name": "object",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an embedded object."
+  },
+  {
+    "name": "ol",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an ordered list."
+  },
+  {
+    "name": "optgroup",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a group of related options in a drop-down list."
+  },
+  {
+    "name": "option",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an option in a drop-down list."
+  },
+  {
+    "name": "output",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines the result of a calculation."
+  },
+  {
+    "name": "p",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a paragraph."
+  },
+  {
+    "name": "param",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines a parameter for an object."
+  },
+  {
+    "name": "picture",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a container for multiple image resources."
+  },
+  {
+    "name": "pre",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines preformatted text."
+  },
+  {
+    "name": "progress",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Represents the progress of a task."
+  },
+  {
+    "name": "q",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a short quotation."
+  },
+  {
+    "name": "rb",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Used to delimit the base text component of a ruby annotation."
+  },
+  {
+    "name": "rp",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines what to show in browsers that do not support ruby annotations."
+  },
+  {
+    "name": "rt",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines an explanation/pronunciation of characters (for East Asian typography)."
+  },
+  {
+    "name": "rtc",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a ruby text container for multiple rt elements."
+  },
+  {
+    "name": "ruby",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a ruby annotation."
+  },
+  {
+    "name": "s",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines text that is no longer correct."
+  },
+  {
+    "name": "samp",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines sample output from a computer program."
+  },
+  {
+    "name": "script",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a client-side script."
+  },
+  {
+    "name": "section",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a section in a document."
+  },
+  {
+    "name": "select",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a drop-down list."
+  },
+  {
+    "name": "slot",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a placeholder inside a web component."
+  },
+  {
+    "name": "small",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines smaller text."
+  },
+  {
+    "name": "source",
+    "isVoid": true,
+    "isConflictive": true,
+    "description": "Defines multiple media resources for media elements."
+  },
+  {
+    "name": "span",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a section in a document."
+  },
+  {
+    "name": "strike",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines strikethrough text (deprecated)."
+  },
+  {
+    "name": "strong",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines important text."
+  },
+  {
+    "name": "style",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines style information for a document."
+  },
+  {
+    "name": "sub",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines subscripted text."
+  },
+  {
+    "name": "summary",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a visible heading for a details element."
+  },
+  {
+    "name": "sup",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines superscripted text."
+  },
+  {
+    "name": "svg",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a container for SVG graphics."
+  },
+  {
+    "name": "table",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a table."
+  },
+  {
+    "name": "tbody",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Groups the body content in a table."
+  },
+  {
+    "name": "td",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines a cell in a table."
+  },
+  {
+    "name": "template",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a template."
+  },
+  {
+    "name": "textarea",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a multiline input control."
+  },
+  {
+    "name": "tfoot",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Groups the footer content in a table."
+  },
+  {
+    "name": "th",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a header cell in a table."
+  },
+  {
+    "name": "thead",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Groups the header content in a table."
+  },
+  {
+    "name": "time",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a specific time."
+  },
+  {
+    "name": "title",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a title for the document."
+  },
+  {
+    "name": "tr",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a row in a table."
+  },
+  {
+    "name": "track",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines text tracks for media elements."
+  },
+  {
+    "name": "tt",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines teletype text (deprecated)."
+  },
+  {
+    "name": "u",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines text that should be stylistically different from normal text."
+  },
+  {
+    "name": "ul",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines an unordered list."
+  },
+  {
+    "name": "var",
+    "isVoid": false,
+    "isConflictive": true,
+    "description": "Defines a variable."
+  },
+  {
+    "name": "video",
+    "isVoid": false,
+    "isConflictive": false,
+    "description": "Defines embedded video content."
+  },
+  {
+    "name": "wbr",
+    "isVoid": true,
+    "isConflictive": false,
+    "description": "Defines a possible line-break."
+  }
+]

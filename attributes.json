@@ -1,0 +1,667 @@
+[
+  {
+    "name": "accept",
+    "isConflictive": false,
+    "description": "Specifies the types of files that the server accepts (only for input type='file')."
+  },
+  {
+    "name": "accept-charset",
+    "isConflictive": false,
+    "description": "Specifies the character encodings to be used for form submission."
+  },
+  {
+    "name": "accesskey",
+    "isConflictive": false,
+    "description": "Specifies a shortcut key to activate/focus an element."
+  },
+  {
+    "name": "action",
+    "isConflictive": false,
+    "description": "Specifies where to send the form-data when a form is submitted."
+  },
+  {
+    "name": "align",
+    "isConflictive": false,
+    "description": "Specifies the alignment of the element's content."
+  },
+  {
+    "name": "allow",
+    "isConflictive": false,
+    "description": "Specifies a feature policy for the iframe."
+  },
+  {
+    "name": "alt",
+    "isConflictive": false,
+    "description": "Provides alternative text for an image if it cannot be displayed."
+  },
+  {
+    "name": "async",
+    "isConflictive": true,
+    "description": "Indicates that the script should be executed asynchronously."
+  },
+  {
+    "name": "autocapitalize",
+    "isConflictive": false,
+    "description": "Controls how text input is automatically capitalized."
+  },
+  {
+    "name": "autocomplete",
+    "isConflictive": false,
+    "description": "Specifies whether an input field should have autocomplete enabled."
+  },
+  {
+    "name": "autofocus",
+    "isConflictive": false,
+    "description": "Specifies that an input field should automatically get focus when the page loads."
+  },
+  {
+    "name": "autoplay",
+    "isConflictive": false,
+    "description": "Specifies that the audio/video should start playing as soon as it is ready."
+  },
+  {
+    "name": "background",
+    "isConflictive": false,
+    "description": "Specifies a background image for the element."
+  },
+  {
+    "name": "bgcolor",
+    "isConflictive": false,
+    "description": "Specifies the background color of an element."
+  },
+  {
+    "name": "border",
+    "isConflictive": false,
+    "description": "Specifies the border width."
+  },
+  {
+    "name": "buffered",
+    "isConflictive": false,
+    "description": "Contains the time ranges that the media element has buffered."
+  },
+  {
+    "name": "capture",
+    "isConflictive": false,
+    "description": "Specifies that the camera should be used for input."
+  },
+  {
+    "name": "challenge",
+    "isConflictive": false,
+    "description": "Specifies that the value of the keygen element should be challenged when submitted."
+  },
+  {
+    "name": "charset",
+    "isConflictive": false,
+    "description": "Specifies the character encoding."
+  },
+  {
+    "name": "checked",
+    "isConflictive": false,
+    "description": "Specifies that an input element should be pre-selected when the page loads."
+  },
+  {
+    "name": "cite",
+    "isConflictive": false,
+    "description": "Specifies a URL that explains the quote, or why a text was inserted/deleted."
+  },
+  {
+    "name": "class",
+    "isConflictive": true,
+    "description": "Specifies one or more class names for an element."
+  },
+  {
+    "name": "code",
+    "isConflictive": true,
+    "description": "Specifies the URL of the applet's class file to be loaded and executed."
+  },
+  {
+    "name": "codebase",
+    "isConflictive": false,
+    "description": "Specifies the base URL for an applet."
+  },
+  {
+    "name": "color",
+    "isConflictive": false,
+    "description": "Specifies the text color of an element."
+  },
+  {
+    "name": "cols",
+    "isConflictive": false,
+    "description": "Specifies the visible width of a text area."
+  },
+  {
+    "name": "colspan",
+    "isConflictive": false,
+    "description": "Specifies the number of columns a cell should span."
+  },
+  {
+    "name": "content",
+    "isConflictive": false,
+    "description": "Gives the value associated with the http-equiv or name attribute."
+  },
+  {
+    "name": "contenteditable",
+    "isConflictive": false,
+    "description": "Specifies whether the content of an element is editable."
+  },
+  {
+    "name": "contextmenu",
+    "isConflictive": false,
+    "description": "Specifies a context menu for an element."
+  },
+  {
+    "name": "controls",
+    "isConflictive": false,
+    "description": "Specifies that audio/video controls should be displayed."
+  },
+  {
+    "name": "coords",
+    "isConflictive": false,
+    "description": "Specifies the coordinates of an area in an image-map."
+  },
+  {
+    "name": "crossorigin",
+    "isConflictive": false,
+    "description": "Configures the CORS requests for the element's fetched data."
+  },
+  {
+    "name": "csp",
+    "isConflictive": false,
+    "description": "Allows specifying a Content Security Policy for the content in the iframe."
+  },
+  {
+    "name": "data",
+    "isConflictive": true,
+    "description": "Specifies the URL of the resource to be used by the object."
+  },
+  {
+    "name": "datetime",
+    "isConflictive": false,
+    "description": "Specifies the date and time."
+  },
+  {
+    "name": "decoding",
+    "isConflictive": false,
+    "description": "Indicates how the browser should load the image."
+  },
+  {
+    "name": "default",
+    "isConflictive": true,
+    "description": "Specifies the default track kind."
+  },
+  {
+    "name": "defer",
+    "isConflictive": true,
+    "description": "Specifies that the script is executed when the page has finished parsing."
+  },
+  {
+    "name": "dir",
+    "isConflictive": true,
+    "description": "Specifies the text direction for the content."
+  },
+  {
+    "name": "dirname",
+    "isConflictive": false,
+    "description": "Enables the submission of the text directionality of an input field."
+  },
+  {
+    "name": "disabled",
+    "isConflictive": false,
+    "description": "Specifies that an element should be disabled."
+  },
+  {
+    "name": "download",
+    "isConflictive": false,
+    "description": "Specifies that the target will be downloaded when a user clicks on the hyperlink."
+  },
+  {
+    "name": "draggable",
+    "isConflictive": false,
+    "description": "Specifies whether an element is draggable or not."
+  },
+  {
+    "name": "enctype",
+    "isConflictive": false,
+    "description": "Specifies how the form-data should be encoded when submitting it to the server."
+  },
+  {
+    "name": "enterkeyhint",
+    "isConflictive": false,
+    "description": "Specifies what action label to present for the enter key on virtual keyboards."
+  },
+  {
+    "name": "for",
+    "isConflictive": true,
+    "description": "Specifies which form element a label or output element is bound to."
+  },
+  {
+    "name": "form",
+    "isConflictive": true,
+    "description": "Specifies the form the element belongs to."
+  },
+  {
+    "name": "formaction",
+    "isConflictive": false,
+    "description": "Specifies where to send the form-data when a form is submitted (for input and button elements)."
+  },
+  {
+    "name": "formenctype",
+    "isConflictive": false,
+    "description": "Specifies how form-data should be encoded (for input and button elements)."
+  },
+  {
+    "name": "formmethod",
+    "isConflictive": false,
+    "description": "Defines the HTTP method for sending form-data (for input and button elements)."
+  },
+  {
+    "name": "formnovalidate",
+    "isConflictive": false,
+    "description": "Defines that form elements should not be validated when submitted."
+  },
+  {
+    "name": "formtarget",
+    "isConflictive": false,
+    "description": "Specifies where to display the response after submitting the form."
+  },
+  {
+    "name": "headers",
+    "isConflictive": false,
+    "description": "Specifies one or more header cells a cell is related to."
+  },
+  {
+    "name": "height",
+    "isConflictive": false,
+    "description": "Specifies the height of the element."
+  },
+  {
+    "name": "hidden",
+    "isConflictive": false,
+    "description": "Specifies that an element is not yet, or is no longer, relevant."
+  },
+  {
+    "name": "high",
+    "isConflictive": false,
+    "description": "Specifies the range that is considered to be a high value."
+  },
+  {
+    "name": "href",
+    "isConflictive": false,
+    "description": "Specifies the URL of the page the link goes to."
+  },
+  {
+    "name": "hreflang",
+    "isConflictive": false,
+    "description": "Specifies the language of the linked document."
+  },
+  {
+    "name": "http-equiv",
+    "isConflictive": false,
+    "description": "Provides an HTTP header for the information/value of the content attribute."
+  },
+  {
+    "name": "icon",
+    "isConflictive": false,
+    "description": "Specifies an icon for the command."
+  },
+  {
+    "name": "id",
+    "isConflictive": false,
+    "description": "Specifies a unique id for an element."
+  },
+  {
+    "name": "importance",
+    "isConflictive": false,
+    "description": "Indicates the relative fetch priority for the resource."
+  },
+  {
+    "name": "integrity",
+    "isConflictive": false,
+    "description": "Allows a browser to verify the fetched resource's integrity."
+  },
+  {
+    "name": "ismap",
+    "isConflictive": false,
+    "description": "Specifies an image as a server-side image-map."
+  },
+  {
+    "name": "itemprop",
+    "isConflictive": false,
+    "description": "Defines a property of an item."
+  },
+  {
+    "name": "keytype",
+    "isConflictive": false,
+    "description": "Specifies the security algorithm of a key."
+  },
+  {
+    "name": "kind",
+    "isConflictive": false,
+    "description": "Specifies the kind of text track."
+  },
+  {
+    "name": "label",
+    "isConflictive": true,
+    "description": "Specifies the title of the text track."
+  },
+  {
+    "name": "lang",
+    "isConflictive": false,
+    "description": "Specifies the language of the element's content."
+  },
+  {
+    "name": "language",
+    "isConflictive": true,
+    "description": "Deprecated. Specifies the scripting language used for the script."
+  },
+  {
+    "name": "loading",
+    "isConflictive": false,
+    "description": "Indicates how the browser should load the image or iframe."
+  },
+  {
+    "name": "list",
+    "isConflictive": true,
+    "description": "Refers to a datalist element that contains pre-defined options."
+  },
+  {
+    "name": "loop",
+    "isConflictive": false,
+    "description": "Specifies that the audio/video will start over again, every time it is finished."
+  },
+  {
+    "name": "low",
+    "isConflictive": false,
+    "description": "Specifies the range that is considered to be a low value."
+  },
+  {
+    "name": "manifest",
+    "isConflictive": false,
+    "description": "Specifies the URL of the document's cache manifest."
+  },
+  {
+    "name": "max",
+    "isConflictive": false,
+    "description": "Specifies the maximum value."
+  },
+  {
+    "name": "maxlength",
+    "isConflictive": false,
+    "description": "Specifies the maximum number of characters allowed in an input field."
+  },
+  {
+    "name": "media",
+    "isConflictive": false,
+    "description": "Specifies what media/device the linked document is optimized for."
+  },
+  {
+    "name": "method",
+    "isConflictive": true,
+    "description": "Specifies the HTTP method to use when sending form-data."
+  },
+  {
+    "name": "min",
+    "isConflictive": false,
+    "description": "Specifies the minimum value."
+  },
+  {
+    "name": "minlength",
+    "isConflictive": false,
+    "description": "Specifies the minimum number of characters required in an input field."
+  },
+  {
+    "name": "multiple",
+    "isConflictive": false,
+    "description": "Specifies that a user can enter more than one value."
+  },
+  {
+    "name": "muted",
+    "isConflictive": false,
+    "description": "Specifies that the audio output should be muted."
+  },
+  {
+    "name": "name",
+    "isConflictive": false,
+    "description": "Specifies the name of the element."
+  },
+  {
+    "name": "nomodule",
+    "isConflictive": false,
+    "description": "Indicates that the script should not be executed in browsers that support module scripts."
+  },
+  {
+    "name": "nonce",
+    "isConflictive": false,
+    "description": "A cryptographic nonce used in Content Security Policy."
+  },
+  {
+    "name": "novalidate",
+    "isConflictive": false,
+    "description": "Specifies that the form should not be validated when submitted."
+  },
+  {
+    "name": "open",
+    "isConflictive": true,
+    "description": "Specifies that the details should be visible to the user."
+  },
+  {
+    "name": "optimum",
+    "isConflictive": false,
+    "description": "Specifies the optimal value of the gauge."
+  },
+  {
+    "name": "pattern",
+    "isConflictive": false,
+    "description": "Specifies a regular expression that the input element's value is checked against."
+  },
+  {
+    "name": "ping",
+    "isConflictive": false,
+    "description": "Specifies a space-separated list of URLs to be notified if a user follows the hyperlink."
+  },
+  {
+    "name": "placeholder",
+    "isConflictive": false,
+    "description": "Specifies a short hint that describes the expected value of an input field."
+  },
+  {
+    "name": "playsinline",
+    "isConflictive": false,
+    "description": "Indicates that the video should play inline on mobile devices."
+  },
+  {
+    "name": "poster",
+    "isConflictive": false,
+    "description": "Specifies an image to be shown while the video is downloading or until the user hits the play button."
+  },
+  {
+    "name": "preload",
+    "isConflictive": false,
+    "description": "Specifies if and how the author thinks the audio/video should be loaded when the page loads."
+  },
+  {
+    "name": "readonly",
+    "isConflictive": true,
+    "description": "Specifies that the input field is read-only."
+  },
+  {
+    "name": "referrerpolicy",
+    "isConflictive": false,
+    "description": "Specifies which referrer information to send when fetching a resource."
+  },
+  {
+    "name": "rel",
+    "isConflictive": false,
+    "description": "Specifies the relationship between the current document and the linked document."
+  },
+  {
+    "name": "required",
+    "isConflictive": false,
+    "description": "Specifies that the input field must be filled out before submitting the form."
+  },
+  {
+    "name": "reversed",
+    "isConflictive": false,
+    "description": "Specifies that the list order should be descending (9,8,7...)."
+  },
+  {
+    "name": "rows",
+    "isConflictive": false,
+    "description": "Specifies the visible number of lines in a text area."
+  },
+  {
+    "name": "rowspan",
+    "isConflictive": false,
+    "description": "Specifies the number of rows a cell should span."
+  },
+  {
+    "name": "sandbox",
+    "isConflictive": false,
+    "description": "Enables an extra set of restrictions for the content in an iframe."
+  },
+  {
+    "name": "scope",
+    "isConflictive": false,
+    "description": "Specifies whether a header cell is a header for a column, row, or group of columns or rows."
+  },
+  {
+    "name": "scoped",
+    "isConflictive": false,
+    "description": "Specifies that the styles only apply to this element's parent and child elements."
+  },
+  {
+    "name": "selected",
+    "isConflictive": false,
+    "description": "Specifies that an option should be pre-selected when the page loads."
+  },
+  {
+    "name": "shape",
+    "isConflictive": false,
+    "description": "Specifies the shape of an area in an image-map."
+  },
+  {
+    "name": "size",
+    "isConflictive": false,
+    "description": "Specifies the width, in characters, of an input field."
+  },
+  {
+    "name": "sizes",
+    "isConflictive": false,
+    "description": "Specifies the sizes of icons for visual media."
+  },
+  {
+    "name": "slot",
+    "isConflictive": false,
+    "description": "Assigns a slot in a shadow DOM shadow tree."
+  },
+  {
+    "name": "span",
+    "isConflictive": true,
+    "description": "Defines the number of columns to span for a col or colgroup element."
+  },
+  {
+    "name": "spellcheck",
+    "isConflictive": false,
+    "description": "Specifies whether the element is to have its spelling and grammar checked or not."
+  },
+  {
+    "name": "src",
+    "isConflictive": false,
+    "description": "Specifies the URL of the media file."
+  },
+  {
+    "name": "srcdoc",
+    "isConflictive": false,
+    "description": "Specifies the HTML content of the page to show in the iframe."
+  },
+  {
+    "name": "srclang",
+    "isConflictive": false,
+    "description": "Specifies the language of the track text data (required if kind='subtitles')."
+  },
+  {
+    "name": "srcset",
+    "isConflictive": false,
+    "description": "Specifies the URL of the image to use in different situations."
+  },
+  {
+    "name": "start",
+    "isConflictive": true,
+    "description": "Specifies the start value of an ordered list."
+  },
+  {
+    "name": "step",
+    "isConflictive": false,
+    "description": "Specifies the legal number intervals for an input field."
+  },
+  {
+    "name": "style",
+    "isConflictive": true,
+    "description": "Specifies an inline CSS style for an element."
+  },
+  {
+    "name": "summary",
+    "isConflictive": true,
+    "description": "Specifies a summary of the content of a table (deprecated in HTML5)."
+  },
+  {
+    "name": "tabindex",
+    "isConflictive": false,
+    "description": "Specifies the tabbing order of an element."
+  },
+  {
+    "name": "target",
+    "isConflictive": false,
+    "description": "Specifies where to open the linked document."
+  },
+  {
+    "name": "title",
+    "isConflictive": true,
+    "description": "Specifies extra information about an element."
+  },
+  {
+    "name": "translate",
+    "isConflictive": false,
+    "description": "Specifies whether the content of an element should be translated or not."
+  },
+  {
+    "name": "type",
+    "isConflictive": true,
+    "description": "Specifies the type of element."
+  },
+  {
+    "name": "usemap",
+    "isConflictive": false,
+    "description": "Specifies an image as a client-side image-map."
+  },
+  {
+    "name": "value",
+    "isConflictive": false,
+    "description": "Specifies the value of the element."
+  },
+  {
+    "name": "width",
+    "isConflictive": false,
+    "description": "Specifies the width of the element."
+  },
+  {
+    "name": "wrap",
+    "isConflictive": false,
+    "description": "Specifies how the text in a text area is to be wrapped when submitted in a form."
+  },
+  {
+    "name": "aria-*",
+    "isConflictive": false,
+    "description": "Defines accessibility semantics or ARIA properties."
+  },
+  {
+    "name": "data-*",
+    "isConflictive": false,
+    "description": "Used to store custom data private to the page or application."
+  },
+  {
+    "name": "role",
+    "isConflictive": false,
+    "description": "Defines the role of an element for accessibility purposes."
+  }
+]
